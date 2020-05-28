@@ -1049,9 +1049,9 @@ pre code {
     max-width: 41.666667%;
   }
   .col-md-6 {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
+    
+    
+    max-width: 100%;padding-left: 00%;
   }
   .col-md-7 {
     -ms-flex: 0 0 58.333333%;
@@ -10590,7 +10590,7 @@ footer .credits a {
   padding-left: 35%
 }
 .rightmain2{
-  border-style: ridge;
+  border-style: ridge;border-radius: 25px;
 }
 .main2{
   margin-left: 6.69%;background-color: white;margin-right: 6.69%;
@@ -10607,4 +10607,9 @@ footer .credits a {
 
  .component2title{
   display: inline-block;
+ }
+
+ .empty{
+
+  display: inline-block;width: 100%;padding-left: 288px;
  }
